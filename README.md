@@ -23,11 +23,10 @@ The Windows Commandline doesn't know Linux commands, but you need them to have a
 
 ## Test your new environment
 1. Open your Powershell
-2. mkdir test-vagrant
-3. cd test-vagrant
-4. wget https://github.com/neikei/install-vagrant-on-windows/blob/master/Vagrantfile
-5. vagrant up
-6. ... wait ...
-7. vagrant ssh
+2. git clone https://github.com/neikei/install-vagrant-on-windows.git
+3. cd install-vagrant-on-windows
+4. vagrant up
+5. ... wait ...
+6. vagrant ssh
 
 ## Have fun! :)
