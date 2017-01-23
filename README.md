@@ -6,22 +6,28 @@ This manual enables you to use Vagrant on your Windows machine.
 2. Install VirtualBox
 
 ## Install Git
-The Windows Commandline doesn't know Linux commands, but you need them to access your VM with the vagrant ssh commands.
+The Windows Commandline doesn't know Linux commands, but you need them to have a working Vagrant environment.
 
-1. Download Git here: https://git-scm.com/download/win 
+1. Download Git here: https://git-scm.com/download/win
 2. Install Git
 
 ## Install Vagrant
 1. Download Vagrant here: https://releases.hashicorp.com/vagrant/1.8.7/vagrant_1.8.7.msi
 2. Install Vagrant
+3. Reboot your Windows
+
+## Install Vagrant Plugins
+1. Open your Powershell
+2. vagrant plugin install vagrant-winnfsd # used for fast NFS shares
+3. vagrant plugin install vagrant-vbguest # used for automatic VirtualBox guest addition updates
 
 ## Test your new environment
-1. Open your Git Bash
-2. git clone https://github.com/neikei/vagrant-centos7-ansible-lemp.git
-3. cd vagrant-centos7-ansible-lemp
-4. vagrant up
-5. ... wait ...
-6. Check the webserver: http://192.168.56.123/
-7. Access the box: vagrant ssh
+1. Open your Powershell
+2. mkdir test-vagrant
+3. cd test-vagrant
+4. wget https://github.com/neikei/install-vagrant-on-windows/blob/master/Vagrantfile
+5. vagrant up
+6. ... wait ...
+7. vagrant ssh
 
 ## Have fun! :)
