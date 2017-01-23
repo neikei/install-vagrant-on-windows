@@ -60,6 +60,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Configure the VM
   config.vm.hostname = 'vagrant-playground'
+  config.vm.network :private_network, ip: "192.168.56.123"
 
   if OS.windows?
     config.vm.synced_folder ".", "/vagrant", type: "nfs"
