@@ -3,17 +3,18 @@ This manual enables you to use Vagrant on your Windows machine.
 
 ## Install VirtualBox
 1. Download VirtualBox: https://www.virtualbox.org/wiki/Downloads
-2. Install VirtualBox
+2. Install VirtualBox with the default settings
 
 ## Install Git
 The Windows Commandline doesn't know Linux commands, but you need them to have a working Vagrant environment and Git will install a bundle of needed commands for you.
 
 1. Download Git: https://git-scm.com/download/win
 2. Install Git
+ - Select "Use Git and optional Unix tools from the Windows Command Promt" in the section for the adjustment of your PATH environment
 
 ## Install Vagrant
 1. Download Vagrant: https://releases.hashicorp.com/vagrant/1.8.7/vagrant_1.8.7.msi
-2. Install Vagrant
+2. Install Vagrant with the default settings
 3. Reboot your Windows
 
 ## Install Vagrant Plugins
