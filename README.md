@@ -18,12 +18,12 @@ The Windows Commandline doesn't know Linux commands, but you need them to have a
 3. Reboot your Windows
 
 ## Install Vagrant Plugins
-1. Open your Powershell
+1. Open your Git Bash
 2. vagrant plugin install vagrant-winnfsd # used for fast NFS shares
 3. vagrant plugin install vagrant-vbguest # used for automatic VirtualBox guest addition updates
 
 ## Test your new environment
-1. Open your Powershell
+1. Open your Git Bash
 2. git clone https://github.com/neikei/install-vagrant-on-windows.git
 3. cd install-vagrant-on-windows
 4. vagrant up
