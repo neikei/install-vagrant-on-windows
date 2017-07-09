@@ -5,6 +5,9 @@
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
 VAGRANTFILE_API_VERSION = "2"
 
+# Check minimum Vagrant version
+Vagrant.require_version ">= 1.9.6"
+
 # Detect host OS for different folder share configuration
 module OS
     def OS.windows?
