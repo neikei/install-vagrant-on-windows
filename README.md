@@ -13,7 +13,7 @@ The Windows Commandline doesn't know Linux commands, but you need them for a wor
  - Select "Use Git and optional Unix tools from the Windows Command Promt" in the section for the adjustment of your PATH environment
 
 ## Install Vagrant
-1. Download Vagrant: https://releases.hashicorp.com/vagrant/1.9.6/vagrant_1.9.6.msi
+1. Download Vagrant: https://releases.hashicorp.com/vagrant/1.9.7/vagrant_1.9.7.msi
 2. Install Vagrant with the default settings
 3. Reboot your Windows
 
