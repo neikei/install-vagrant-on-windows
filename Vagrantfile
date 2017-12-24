@@ -6,7 +6,7 @@
 VAGRANTFILE_API_VERSION = "2"
 
 # Check minimum Vagrant version
-Vagrant.require_version ">= 1.9.7"
+Vagrant.require_version ">= 2.0.1"
 
 # Detect host OS for different folder share configuration
 module OS

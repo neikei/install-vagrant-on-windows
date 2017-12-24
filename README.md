@@ -9,11 +9,10 @@ This manual enables you to use Vagrant on your Windows machine.
 The Windows Commandline doesn't know Linux commands, but you need them for a working Vagrant environment and Git will install a bundle of needed commands for you.
 
 1. Download Git: https://git-scm.com/download/win
-2. Install Git
- - Select "Use Git and optional Unix tools from the Windows Command Promt" in the section for the adjustment of your PATH environment
+2. Install Git with the default settings
 
 ## Install Vagrant
-1. Download Vagrant: https://releases.hashicorp.com/vagrant/1.9.7/vagrant_1.9.7.msi
+1. Download Vagrant: https://releases.hashicorp.com/vagrant/2.0.1/vagrant_2.0.1_x86_64.msi
 2. Install Vagrant with the default settings
 3. Reboot your Windows
 
