@@ -31,7 +31,7 @@ This manual enables you to use Vagrant on your Windows machine.
 
 ### Install Vagrant
 
-1. Download Vagrant: https://releases.hashicorp.com/vagrant/2.2.5/vagrant_2.2.5_x86_64.msi
+1. Download Vagrant: https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.msi
 2. Install Vagrant with the default settings
 3. Reboot Windows
 
