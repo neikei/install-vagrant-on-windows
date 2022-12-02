@@ -32,7 +32,7 @@ end
 # backwards compatibility). Please don't change it unless you know what
 # you're doing.
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "centos/8"
+  config.vm.box = "generic/rocky9"
 
   config.vm.provider "parallels"
   config.vm.provider "virtualbox"
